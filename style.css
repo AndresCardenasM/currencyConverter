@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: wheat;
+}
+.wrapper {
+    width: 90%;
+    max-width: 36em;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 2em;
+    border-radius: 0.8em;
+}
+.app-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.app-icon{
+    width: 9.37;
+}
+.app-title{
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 1.5em 0 1.5em 0.5em;
+}
+
+input#amount{
+    font-weight: 400;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #02002c;
+    color: #7a789d;
+    margin-bottom: 2em;
+    padding: 0.5em;
+}
+input#amount:focus{
+    color: black;
+    border-color: wheat;
+}
+.dropdowns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+select{
+    width: 100%;
+    padding: 0.6em;
+    font-size: 1em;
+    border-bottom: 0.2em;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(https://www.freeiconspng.com/thumbs/arrow-down-icon-png/black-arrow-down-icon-png-16.png);
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+    background-size: 20px 20px;
+    background-color: rgb(255, 196, 86);
+    color: #000000;
+}
+select option{
+    background-color: #ffffff;
+    color: #02002c;
+}
+button{
+    font-size: 1em;
+    width: 100%;
+    background-color: rgb(255, 196, 86);
+    padding: 1em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    color: #ffffff;
+    font-weight: 600;
+}
+#result{
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1em;
+    color: #02002c;
+    background-color: wheat;
+    padding: 0.8em 0;
+}
